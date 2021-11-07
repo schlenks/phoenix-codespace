@@ -1,5 +1,5 @@
-ARG VARIANT=latest
-FROM elixir:${VARIANT}
+ARG EX_VERSION=latest
+FROM elixir:${EX_VERSION}
 
 RUN apt-get update && \
     apt-get install -y postgresql-client && \

@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        VARIANT: latest
+        EX_VERSION: latest
         PHX_VERSION: 1.6.2
 
     volumes:
