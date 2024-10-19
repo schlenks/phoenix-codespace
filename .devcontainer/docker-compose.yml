@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
       args:
         EX_VERSION: latest
-        PHX_VERSION: 1.6.2
+        PHX_VERSION: latest
 
     volumes:
       - ..:/workspace:cached
