@@ -25,5 +25,5 @@ mix phx.new . --app your_app_name
 There are 3 files within the `.devcontainer` folder:
 `docker-compose.yml` describes the projects services and dictatest the Elixir, Phoenix & Postgres versions:
 - `EX_VERSION` - Elixir Version. Default is _**latest**_
-- `PHX_VERSION` - Phoenix Version. Default is _**1.6.2**_
+- `PHX_VERSION` - Phoenix Version. Default is _**latest**_
 - `db` service - Postgres Version. Default is _**latest**_ via `postgres:latest`
